@@ -1,0 +1,204 @@
+body {
+    background-color: #222222;
+}
+
+.banner-top{
+  width: 90%;
+  height: 230px;              
+  background-color: rgba(139, 0, 0, 0.511);  
+  margin: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;           
+}
+.top-photo {
+  width: auto; 
+  height: 260px; 
+  display: block;
+  margin-top: 10px; 
+  margin-left: 20%; 
+  margin-right: 10px; 
+  box-sizing: border-box; 
+  
+}
+
+.title {
+    color:peachpuff;
+    text-align: center;
+    line-height: 100px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 36px; 
+    font-weight: bold; 
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle {
+    color:floralwhite;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 24px; 
+    margin-top: 10px; 
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.anchor {
+   top: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;              
+    flex-wrap: wrap; 
+}
+
+.anchorul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.anchorlinks {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+a {
+    color: white;      
+    text-decoration: none;
+}
+
+a:visited {
+  color: white;      
+}
+
+a:hover {
+  text-decoration: underline;
+  color: burlywood;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+.content-description {
+color:firebrick;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+position: relative;
+text-align: center;
+}
+
+.section1 {
+    top: 380px; 
+    width: 75%;
+    position: relative;
+    padding: 20px; 
+    background-color: #333333; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-paragraph {
+    margin-bottom: 15px; 
+    color: seashell;
+}
+
+.section2 {
+    top: 400px; 
+    width: 75%;
+    position: relative;
+    padding: 20px; 
+    background-color: #343030; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.oath-box{
+top: 368;
+max-width: 900px;
+margin: 20px auto;
+padding: 18px 22px;
+border: 2px solid rgba(245, 230, 200, 0.6);
+border-radius: 10px;
+background: rgba(0,0,0,0.35);
+}
+
+.subsection-title {
+    color:burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section3 {
+    
+    position: static;      /* default flow */
+    top: auto;             /* remove manual offsets */
+    margin: 30px auto;     /* spacing between sections + center horizontally */
+    width: 75%;
+    padding: 20px;
+    background-color: #343030; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 400px;
+
+    }
+
+.music-data {
+    width: 75%;
+    position: relative;
+    padding: 20px; 
+    background-color: #343030; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.media {
+    width: 75%;
+    position: relative;
+    padding: 20px; 
+    background-color: #343030; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.videocenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
